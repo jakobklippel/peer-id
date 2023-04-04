@@ -15,7 +15,7 @@ To address these challenges, anonymous, scalable approaches to online identity v
 
 ### Problem Statement and Motivation
 
-The prevalence of misinformation, manipulation, and fraud online undermines trust and damages the integrity of online communities. Traditional centralized identity verification systems require users to provide personal information, compromising their privacy and leaving them vulnerable to data breaches. Other systems can be easiliy manipulated by bad actors, who can create fake identities and spread false information online. With the increasing sophistication of AI technology, online verification methods are becoming less reliable, creating a need for more innovative and secure approaches. Peer-to-peer, offline verification is the key to a tamper-proof, scalable identity solution in the age of AI.
+The prevalence of misinformation, manipulation, and fraud online undermines trust and damages the integrity of online communities. Traditional centralized identity verification systems require users to provide personal information, compromising their privacy and leaving them vulnerable to data breaches. Other less intrusive systems can often be easiliy manipulated by bad actors. With the increasing sophistication of AI technology, online verification methods are becoming less reliable, creating a need for more innovative and secure approaches. Peer-to-peer, offline verification is the only reliable, tamper-proof, and scalable identity solution in the age of AI.
 
 ### Objectives and Goals
 
