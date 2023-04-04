@@ -42,7 +42,7 @@ Verification data is stored on a DLT, which provides a secure and tamper-proof w
 
 ##### Oracle Service
 
-The PeerID protocol uses an oracle service to analyze the verification data stored on the DLT and calculate individual trust scores for each user. The trust score is a measure of the user's reputation and credibility within the network, based on the number of verifications they have completed and the ratings they have received from other users.
+The PeerID protocol uses an oracle service to analyze the verification data stored on the DLT and calculates individual trust scores for each user. The trust score is a measure of the user's reputation and credibility within the network, based on the number of verifications they have completed and the ratings they have received from other users.
 
 Since it is expected that analysis methods and weights might need to adapt to external changes, this service will be centralised, but controlled though a decentralized, autonomous organisation (DAO). The protocol allows for multiple, alternative and independent oracle services to be utilised, making the system less dependent on a single entity.  
 
