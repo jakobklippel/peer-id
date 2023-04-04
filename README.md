@@ -19,13 +19,11 @@ The prevalence of misinformation, manipulation, and fraud online undermines trus
 
 ### Objectives and Goals
 
-The PeerID protocol aims to provide an anonymous, and secure identity verification system. The protocol requires users to create and verify their digital identities in a secure and tamper-proof way through a peer-to-peer verification process. This involves a physical, in person meeting where two parties confirm the identity shown by the other through a signing process. The verification proofs are stored on a distributed ledger, ensuring the authenticity and integrity of the data. 
-
-PeerID aims to enhance trust and transparency in online communities, enabling users to make more informed decisions and build stronger relationships. The project is open source and community-driven, with the goal of creating a protocol that is accessible and useful to all.
+The PeerID protocol aims to provide an anonymous, and secure identity verification system. PeerID aims to enhance trust and transparency in online communities, enabling users to make more informed decisions and build stronger relationships. The project is open source and community-driven, with the goal of creating a protocol that is accessible and useful to all.
 
 ### II. Technical Overview
 
-The PeerID protocol enables users to create and verify their digital identities in a secure and tamper-proof way through a peer-to-peer verification process. This involves users showing a picture of themselves to the other user through a P2P connection. No personal data, official ID, or other sensitive information is required to be shared with the verifying peer. The picture is only sent to the device of the verification partner and is not stored anywhere else. Digital verification proofs are then stored on a distributed ledger, which is maintained by a network that validates and ensure the consistency and security of the data.
+PeerID protocol requires users to create and verify their digital identities in a secure and tamper-proof way through a peer-to-peer verification process. This involves a physical, in person meeting where two parties confirm the identity (picture) shown by the other through a P2P signing process. No personal data, official ID, or other sensitive information is required to be shared with the verifying peer. The picture is only sent to the device of the verification partner and is not stored anywhere else. The verification proofs are stored on a distributed ledger, ensuring the authenticity and integrity of the data. 
 
 #### Components
 
