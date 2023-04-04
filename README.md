@@ -31,7 +31,7 @@ The PeerID protocol has several key components. These components include a mobil
 
 ##### Client Application
 
-The Client application is mobile applications that users install on their devices to create and verify their digital identities. The client application provides a user-friendly interface for users to interact with the protocol, including the ability to initiate and complete the peer-to-peer verification process.
+The client is a mobile applications that users install on their devices to create and verify their digital identities. The client application provides a user-friendly interface for users to interact with the protocol, including the ability to initiate and complete the peer-to-peer verification process.
 
 ##### Distributed Ledger Technology (DLT)
 
@@ -49,9 +49,13 @@ The DApp anonymizes user identities and trust scores using zero-knowledge proofs
 
 ##### Identity provider
 
-The PeerID protocol provides an identity provider that can be integrated with third-party services. This allows users to use their verified identities to access other services without having to undergo additional verification processes.
+The PeerID system includes an OpenID identity provider that can be easily integrated with third-party services. This allows users to use their verified identities to access other services without having to undergo additional verification processes.
 
-Identities can also be used to add signatures to online content such as image, video, audio, or text. By doing so they claim ownership of given content and signal trustworthiness to others without sacrificing anonymity. 
+Identities can also be used to add signatures to online content such as image, video, audio, or text. By doing so they claim ownership of given content and signal trustworthiness to others without sacrificing anonymity.
+
+##### Short Signatures
+
+Short Signartures allow signing text and media in way that it is minimal invasive and less distracting from the actual content. This is especially important for areas where the content size is limited. Short signatures are basically a reference to the actual signature which is stored on a separate public service.
 
 #### Design decisions and trade-offs
 
