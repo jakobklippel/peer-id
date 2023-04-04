@@ -1,10 +1,9 @@
-# peer-id
+# PeerID
 A decentralized identity verification protocol
 
-PeerID is a decentralized, anonymous identity verification protocol that aims to prevent online misinformation, manipulation, and fraud. By using Peer-ID, users can assure others that the content they interact with is real and trustworthy, without sacrificing privacy and anonymity.
+PeerID is a decentralized, anonymous identity verification protocol that aims to prevent online misinformation, manipulation, and fraud. By using PeerID, users can assure others that the content they interact with is real and trustworthy, without sacrificing privacy and anonymity. PeerID specifically offers a reliable method for validation of uniqueness and humanity of online users.
 
 ## Whitepaper
-
 
 ### I. Introduction
 
@@ -60,4 +59,4 @@ Identities can also be used to add signatures to online content such as image, v
 
 The design decisions of PeerID were made with a focus on accessibility, reliability, privacy, and resistance to manipulation and censorship. To achieve this, biometric data will not be used due to cost, privacy concerns, and accessibility. Instead, the PeerID protocol requires users to engage in peer-to-peer verifications with people they choose and trust. While this may reduce the ability to automatically identify duplicate profiles and reliability of individual verifications, it allows more users to participate in the service. Given there are multiple, confirming verification from different peers, a very high verification confidence can be reached that even exceeds biometric methods. Additionally, the protocol does not rely on centralized ID verification services, which are expensive and can compromise privacy. Instead, individual verifications are done peer-to-peer and stored on a DLT. To strengthen the whole system, some selected users that agree to do so will participate in centralized ID verifications during the initial phase where the network has less coverage and lacks local verification interactions. Lastly, there is no online verification process, as online information can be easily manipulated or faked, especially with modern AI technology. While this makes the verification process less accessible and more complex, it ensures that the identity verification is reliable and resistant to manipulation from the start on.
 
-While there will always be trade-offs, PeerId aims to provide the optimal balance in terms of practicability while maintaining high, temper-proof security. 
+While there will always be trade-offs, PeerID aims to provide the optimal balance in terms of practicability while maintaining high, temper-proof security. 
