@@ -9,9 +9,9 @@ PeerID is a anonymous identity verification protocol that aims to prevent online
 
 ### Background and Context
 
-Identity verification solutions are crucial in the digital age as they enable the identification of computer-generated content, and help build trust in online interactions. However, common identity verification systems have several shortcomings, including being non-anonymous. Some more anonymous systems have shortcomings regarding privacy, security and accessibility. Additionally, with the rise of AI and machine learning technologies, it has become easier for malicious actors to create convincing fake identities and manipulate content online, making it even more difficult to ensure the authenticity of online identities.
+Identity verification solutions are becoming more crucial in the digital context as they allow to distinguish human from computer-generated content, and thus, help to build trust in online interactions. However, common identity verification systems have several shortcomings, including being non-anonymous. Some more anonymous systems have shortcomings regarding privacy, security and accessibility. Additionally, with the rise of AI and machine learning technologies, it has become easier for malicious actors to create convincing fake identities and manipulate content online, making it even more difficult to ensure the authenticity of online identities.
 
-To address these challenges, innovative and secure approaches to online identity verification are needed. Other decentralized identity solutions have compromised on usability, accessibility, privacy, or cost, making them less effective and less widely adopted. The PeerID protocol aims to address these shortcomings and providing secure identity verification system that prioritizes practicability and large scale adoption.
+To address these challenges, anonymous, scalable approaches to online identity verification are needed. Other decentralized identity solutions compromise on usability, accessibility, privacy, or cost, making them less effective and less widely adopted. The PeerID protocol aims to address these shortcomings and providing secure identity verification system that prioritizes practicability and large scale adoption.
 
 ### Problem Statement and Motivation
 
