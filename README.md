@@ -23,7 +23,7 @@ The PeerID protocol aims to provide an anonymous, and secure identity verificati
 
 ### II. Technical Overview
 
-PeerID protocol requires users to create and verify their digital identities in a secure and tamper-proof way through a peer-to-peer verification process. This involves a physical, in person meeting where two parties confirm the identity (picture) shown by the other through a P2P signing process. No personal data, official ID, or other sensitive information is required to be shared with the verifying peer. The picture is only sent to the device of the verification partner and is not stored anywhere else. The verification proofs are stored on a distributed ledger, ensuring the authenticity and integrity of the data. 
+PeerID protocol requires users to create and verify their digital identities in a secure and tamper-proof way through a peer-to-peer verification process. This involves a physical, in person meeting where two parties confirm the identity (picture) shown by the other through a P2P signing process. No additional personal data, official ID, or other sensitive information is required to be shared with the verifying peer. The verification proofs are stored on a distributed ledger, ensuring the authenticity and integrity of the data. 
 
 #### Components
 
