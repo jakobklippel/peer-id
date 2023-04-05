@@ -33,7 +33,7 @@ Based on the interactions data of the verifier network a trust score is calculat
 
 An individuals peer-id can be used for authentication, signatures and captchas at third party services as well as serve as a unique application scoped user ID. Thus, third party services using PeerID integrations can assure that users of their service are unique and human.
 
-Users can anonymously proof their uniqueness and humanity to gain access to services, build trust and develop stronger relationships online.
+Users can anonymously proof their uniqueness and humanity to gain access to services, add digital signatures to online content and thus, build trust and develop stronger relationships online.
 
 #### Components
 
