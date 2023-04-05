@@ -37,7 +37,7 @@ Users can anonymously proof their uniqueness and humanity to gain access to serv
 
 #### Components
 
-The PeerID protocol has several key components. These components include a mobile client application, distributed ledger technology (DLT), an oracle analysis service, a decentralized anonymiser application (DApp), and a public identity provider.
+The PeerID protocol has several key components. These components include a mobile client application (Client), distributed ledger technology (DLT) backend, a network oracle analysis service supervised by a Decentralised Autonomous Organisation (DAO), a decentralized anonymiser application (DApp), and a public identity provider.
 
 ##### Client Application
 
@@ -51,7 +51,7 @@ Verification data is stored on a DLT, which provides a secure way to store and s
 
 The PeerID protocol uses an oracle service to analyze the verification data stored on the DLT and calculates individual trust scores for each user. The trust score is a measure of the user's reputation and credibility within the network, based on the number of verifications they have completed.
 
-Since it is expected that analysis methods and weights might need to adapt to external changes, this service is centralised, but controlled though a decentralized, autonomous organisation (DAO). The protocol allows for multiple, alternative and independent oracle services to be utilised, making the system less dependent on a single entity.  
+Since it is expected that analysis methods and weights might need to adapt to the growth to the network, this service is centralised, but controlled though a decentralized, autonomous organisation (DAO). The protocol allows for multiple, alternative and independent oracle services to be utilised, making the system less dependent on a single entity.  
 
 ##### Decentralized Application (DApp)
 
@@ -69,10 +69,10 @@ Short Signartures allow signing text and media in way that it is minimal invasiv
 
 #### Design decisions and trade-offs
 
-The design decisions of PeerID were made with a focus on balancing the different requirements for an effective identity validation system. Desing decision include:
+The design decisions of PeerID were made with a focus on balancing the different requirements for an effective identity validation system. Design decision include:
 
-- Biometric data will not be used due to cost, privacy concerns, and accessibility. Instead, the PeerID protocol requires users to engage in peer-to-peer verifications with people they choose and trust. While this may reduce the ability to automatically identify duplicate profiles and reliability of individual verifications, it allows more users to participate in the service. Given there are multiple, confirming verification from different peers, a very high verification confidence can be reached that even exceeds biometric methods
-- The protocol does not rely on centralized ID verification services, which are expensive and can compromise privacy. Instead, individual verifications are done peer-to-peer and stored on a DLT. To strengthen the whole system, some selected users that agree to do so will participate in centralized ID verifications during the initial phase where the network has less coverage and lacks local verifications
-- There is no online verification process forseen, as online information can be easily manipulated or faked, especially with modern AI technology. While this makes the verification process more elaborate, it ensures that the identity verification is reliable and resistant to manipulation. Again, selected individuals might be verified online during the ramp up phase to kick start the network.
+- No use of biometric data. Biometric data will not be used due to cost, privacy concerns, and accessibility. Instead, the PeerID protocol requires users to engage in peer-to-peer verifications with people they choose and trust. While this may reduce the ability to automatically identify duplicate profiles and reliability of individual verifications, it allows more users to participate in the service and provide more privacy. Given there are multiple, confirming verification from different peers, a very high verification confidence can be reached that even exceeds biometric methods
+- No centralized identity verification. The protocol does not rely on centralized ID verification services, which are expensive and can compromise privacy. Instead, individual verifications are done peer-to-peer and stored on a DLT. To strengthen the whole system, some selected users that agree to do so will participate in centralized ID verifications during the initial phase where the network is less mature and lacks local verifications
+- No online verification methods. There is no online verification process forseen, as online information can be easily manipulated or faked, especially with modern AI technology. While this makes the verification process more elaborate, it ensures that the identity verification is reliable and resistant to manipulation. Again, selected individuals might be verified online during the ramp up phase to kick start the network.
 
-While there will always be trade-offs, PeerID aims to provide the optimal balance in terms of practicability while maintaining high, temper-proof security. 
+While there are trade-offs, PeerID aims to provide the optimal balance in terms of usability, accessibility and privacy while maintaining high, tamper-proof security.
