@@ -9,9 +9,9 @@ PeerID is a anonymous identity verification protocol that aims to prevent online
 
 ### Background and Context
 
-Identity verification solutions are becoming more important in the context of AI advancements as they allow to distinguish human from computer-generated content, and thus, help to build trust in online interactions. With the rise of AI and machine learning technologies, it is becoming significantly easier for malicious actors to create convincing fake identities and manipulate content online.
+Identity verification solutions are becoming more important in the context of AI advancements as they allow to distinguish human from computer-generated content, and thus, help to build trust in online interactions. With the rise of AI and machine learning technologies, it is becoming significantly easier for malicious actors to create convincing fake identities and generate manipulative content online. Likewise it is important for users to maintain privacy of their data and anonymity, if they choose to. Lastly, a solution should be inclusive and accessible to all users worldwide.
 
-To address these challenges, anonymous, scalable approaches to online identity verification are needed. Other verification and identity solutions compromise on usability, accessibility, privacy, or cost, making them less effective and less widely adopted. The PeerID protocol aims to address these shortcomings and provide an identity verification and validation system that prioritizes anonymity, practicability and large scale adoption.
+To address these challenges, anonymous, scalable approaches to online identity verification are needed. Other verification and identity solutions compromise on usability, accessibility, privacy, or cost, making them less effective and less likely adopted. The PeerID protocol aims to address these shortcomings and provide an identity verification and validation system that prioritizes anonymity, usability and large scale adoption.
 
 ### Problem Statement and Motivation
 
