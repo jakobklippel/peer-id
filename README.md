@@ -37,7 +37,7 @@ Users can anonymously proof their uniqueness and humanity to gain access to serv
 
 #### Components
 
-The PeerID protocol has several key components. These components include a mobile client application (Client), distributed ledger technology (DLT) backend, a network oracle service supervised by a Decentralised Autonomous Organisation (DAO), a decentralized anonymiser application (DApp), and a public identity provider.
+The PeerID protocol has several key components. These components include a mobile client application (Client), distributed ledger technology (DLT) backend, a network oracle service supervised by a Decentralised Autonomous Organisation (DAO), a public identity provider, and digital signatures.
 
 ##### Client Application
 
@@ -51,19 +51,17 @@ Verification data is stored on a DLT, which provides a secure way to store and s
 
 The PeerID protocol uses an oracle service to analyze the verification data stored on the DLT and calculates individual trust scores for each user. The trust score is a measure of the user's reputation and credibility within the network, based on the number of verifications they have completed.
 
-Since it is expected that analysis methods and weights might need to adapt to the growth to the network, this service is centralised, but controlled though a decentralized, autonomous organisation (DAO). The protocol allows for multiple, alternative and independent oracle services to be utilised, making the system less dependent on a single entity.  
+The oracle service then creates zero-knowledge-proofs and provides them to the users client applications. With those, users can prove that they are unique, human, and have a certain trust score without revealing any personal information. The use of zero-knowledge proofs ensures that the identity of users cannot be traced back to the verifying peers, and the users' behavior cannot be tracked cross services.
 
-##### Decentralized Application (DApp)
-
-The DApp anonymizes user identities and trust scores using zero-knowledge proofs, ensuring user privacy and anonymity. Users can prove that they are unique, human, and have a certain trust score without revealing any personal information. The use of zero-knowledge proofs ensures that the identity of users cannot be traced back to the verifying peers, and the users' behavior cannot be tracked cross services.
+Since it is expected that analysis methods and weights might need to adapt to the growth to the network, this service is centralised, but controlled though a decentralized, autonomous organisation (DAO). The protocol allows for multiple, alternative and independent oracle services to be utilised, making the system less dependent on a single entity.
 
 ##### Identity provider
 
-The PeerID system includes an OpenID identity provider that can be easily integrated with third-party services. This allows users to use their verified identities to access other services without having to undergo additional verification processes.
+The PeerID system includes an identity provider that can be easily integrated with third-party services. This allows users to use their verified identities to access other services without having to undergo additional verification processes. Users can create one or multiple application scoped identities with their peer-id. They are required to provide their identity proofs to the service at regular intervals to ensure actuality.
+
+##### Digital Signatures
 
 Identities can also be used to add signatures to online content such as image, video, audio, or text. By doing so they claim ownership of given content and signal trustworthiness to others without sacrificing anonymity.
-
-##### Short Signatures
 
 Short Signartures allow signing text and media in way that it is minimal invasive and less distracting from the actual content. This is especially important for areas where the content size is limited. Short signatures are basically a reference to the actual signature which is stored on a separate public service.
 
