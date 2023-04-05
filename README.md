@@ -31,7 +31,7 @@ PeerID protocol requires users to create and verify their digital identities in 
 
 Based on the interactions data of the verifier network a trust score is calculated for each user. The users identity is further anonymised in the process which prevents tracking cross services and makes it impossible to trace back users public identity to their verifier node and thus, to the peers that they interacted with.
 
-A individuals peer-id can be used for authentication, signatures and captchas at third party services as well as serve as a unique application scoped user ID. Thus, third party services using PeerID integrations can assure that users of their service are unique and human.
+An individuals peer-id can be used for authentication, signatures and captchas at third party services as well as serve as a unique application scoped user ID. Thus, third party services using PeerID integrations can assure that users of their service are unique and human.
 
 Users can anonymously proof their uniqueness and humanity to gain access to services, build trust and develop stronger relationships online.
 
