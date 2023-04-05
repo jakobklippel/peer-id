@@ -37,7 +37,7 @@ Users can anonymously proof their uniqueness and humanity to gain access to serv
 
 #### Components
 
-The PeerID protocol has several key components. These components include a mobile client application (Client), distributed ledger technology (DLT) backend, a network oracle analysis service supervised by a Decentralised Autonomous Organisation (DAO), a decentralized anonymiser application (DApp), and a public identity provider.
+The PeerID protocol has several key components. These components include a mobile client application (Client), distributed ledger technology (DLT) backend, a network oracle service supervised by a Decentralised Autonomous Organisation (DAO), a decentralized anonymiser application (DApp), and a public identity provider.
 
 ##### Client Application
 
