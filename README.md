@@ -19,7 +19,7 @@ The prevalence of misinformation, manipulation, and fraud online undermines trus
 
 Other less intrusive systems can often be easiliy manipulated by bad actors. With the increasing sophistication of AI technology, online verification methods are becoming less reliable, creating a need for more innovative and secure approaches. 
 
-Peer-to-peer, real world verification is the only reliable, tamper-proof, and scalable identity solution that will persist in the age of AI.
+A peer-to-peer, real world verification metod is the only reliable, tamper-proof, and scalable identity solution that will persist in the age of AI.
 
 ### Objectives and Goals
 
