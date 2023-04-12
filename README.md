@@ -23,9 +23,7 @@ With the increasing sophistication of AI technology, online verification methods
 
 PeerID is a peer-to-peer verification protocol that is a reliable, tamper-proof, and scalable identity solution for the future that will persist in the age of AI while maintaining anonymity and privacy of it's users.
 
-### Objectives and Goals
-
-The PeerID protocol aims to provide an anonymous, and secure identity verification system. PeerID enhances trust and transparency in online communities, enabling users to make more informed decisions and build stronger relationships. The goal of PeerID is to build a protocol that is accessible and useful to all.
+PeerID enhances trust and transparency in online communities, enabling users to make more informed decisions and build stronger relationships. The goal of PeerID is to build a protocol that is accessible and useful to all.
 
 ### II. Technical Overview
 
