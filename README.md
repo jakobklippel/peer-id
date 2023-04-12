@@ -5,7 +5,9 @@ by Jakob Klippel (jakob@config.one)
 
 ## Peer Identity Verification Protocol
 
-PeerID is a anonymous identity verification protocol that aims to prevent online misinformation, manipulation, and fraud. By using PeerID, users can assure others that the content they interact with is real and trustworthy, without sacrificing privacy and anonymity. PeerID specifically offers a reliable proof of uniqueness and proof of humanity for users in online communities.
+PeerID is an decentralized, peer-to-peer identity verification protocol that enables users to provide a reliable proof of humanity without revealing their identity. In other words, users can assure others that the content they interact with is trustworthy, while still maintaining privacy and anonymity.
+
+PeerID aims to reduces the impact of online misinformation, manipulation, and fraud, resulting from increasingly sophisticated AI technology.
 
 ### I. Introduction
 
