@@ -9,25 +9,25 @@ PeerID is a anonymous identity verification protocol that aims to prevent online
 
 ### Background and Context
 
-Identity verification solutions are becoming more important in the context of AI advancements as they allow to distinguish human from computer-generated content, and thus, help to build trust in online interactions. With the rise of AI and machine learning technologies, it is becoming significantly easier for malicious actors to create convincing fake identities and generate manipulative content online. Likewise it is important for users to maintain privacy of their data and anonymity, if they choose to. Lastly, a solution should be inclusive and accessible to all users worldwide.
+The prevalence of misinformation, manipulation, and fraud online undermines trust and damages the integrity of online communities today. With the advancement of AI, bad actors gain access to tools that can scale their activities significantly.
 
-To address these challenges, anonymous, scalable approaches to online identity verification are needed. Other verification and identity solutions compromise on usability, accessibility, privacy, or cost, making them less effective and less likely adopted. The PeerID protocol aims to address these shortcomings and provide an identity verification and validation system that prioritizes anonymity, usability and large scale adoption.
+Identity verification solutions are becoming significantly more important in this context as they allow to distinguish human from computer-generated content, and thus, help to build trust in online interactions.
 
 ### Problem Statement and Motivation
 
-The prevalence of misinformation, manipulation, and fraud online undermines trust and damages the integrity of online communities. Traditional centralized identity verification systems require users to provide personal information, compromising their privacy and leaving them vulnerable to data breaches.
+Existing solutions compromise on significant features. Most are unfit to meet the challenges in the context of AI advancements. Furthermore, they are often expensive to use and require users to provide personal information, compromising their privacy and leaving them vulnerable to data breaches.
 
-Other less intrusive systems can often be easiliy manipulated by bad actors. With the increasing sophistication of AI technology, online verification methods are becoming less reliable, creating a need for more innovative and secure approaches. 
+With the increasing sophistication of AI technology, online verification methods in general are becoming less reliable, creating a need for more innovative and secure approaches. It is becoming significantly easier for malicious actors to create convincing fake identities and generate manipulative content online. Other less intrusive systems are significantly more likely subject to manipulation. A scalable solution should be inclusive and accessible to all users worldwide.
 
-A peer-to-peer, real world verification method is the only reliable, tamper-proof, and scalable identity solution that will persist in the age of AI.
+PeerID - a peer-to-peer, real world verification protocol - is a reliable, tamper-proof, and scalable identity solution for the future that will persist in the age of AI while maintaining anonymity and privacy of it's users.
 
 ### Objectives and Goals
 
-The PeerID protocol aims to provide an anonymous, and secure identity verification system. PeerID aims to enhance trust and transparency in online communities, enabling users to make more informed decisions and build stronger relationships. The project is open source and community-driven, with the goal of creating a protocol that is accessible and useful to all.
+The PeerID protocol aims to provide an anonymous, and secure identity verification system. PeerID enhances trust and transparency in online communities, enabling users to make more informed decisions and build stronger relationships. The goal of PeerID is to build a protocol that is accessible and useful to all.
 
 ### II. Technical Overview
 
-PeerID protocol requires users to create and verify their digital identities in a secure and tamper-proof way through a peer-to-peer verification process. This involves a physical, in person meeting where two parties confirm the identity (picture) shown by the other through a P2P signing process. No additional personal data, official ID, or other sensitive information is required to be shared with the verifying peer. The verification proofs are stored on a distributed ledger, ensuring the authenticity and integrity of the data.
+PeerID protocol requires users to create and verify their digital identities in a secure and tamper-proof way through a peer-to-peer verification process. This involves a physical, in person meeting where two parties confirm the identity (picture) shown by the other through a P2P signing process. No additional personal data, official ID, or other sensitive information is required to be shared with the verifying peer. The digital verification proofs are stored on a distributed ledger, ensuring the authenticity and integrity of the data.
 
 Based on the interactions data of the verifier network a trust score is calculated for each user. The users identity is further anonymised in the process which prevents tracking cross services and makes it impossible to trace back users public identity to their verifier node and thus, to the peers that they interacted with.
 
@@ -37,7 +37,7 @@ Users can anonymously proof their uniqueness and humanity to gain access to serv
 
 #### Components
 
-The PeerID protocol has several key components. These components include a mobile client application (Client), distributed ledger technology (DLT) backend, a network oracle service supervised by a Decentralised Autonomous Organisation (DAO), a public identity provider, and digital signatures.
+The PeerID protocol has several key components. These components include a mobile client application (Client), distributed ledger technology (DLT) backend, a network oracle service (Oracle), a public identity provider, and digital signatures.
 
 ##### Client Application
 
@@ -52,8 +52,6 @@ Verification data is stored on a DLT, which provides a secure way to store and s
 The PeerID protocol uses an oracle service to analyze the verification data stored on the DLT and calculates individual trust scores for each user. The trust score is a measure of the user's reputation and credibility within the network, based on the number of verifications they have completed.
 
 The oracle service then creates zero-knowledge-proofs and provides them to the users client applications. With those, users can prove that they are unique, human, and have a certain trust score without revealing any personal information. The use of zero-knowledge proofs ensures that the identity of users cannot be traced back to the verifying peers, and the users' behavior cannot be tracked cross services.
-
-Since it is expected that analysis methods and weights might need to adapt to the growth to the network, this service is centralised, but controlled though a decentralized, autonomous organisation (DAO). The protocol allows for multiple, alternative and independent oracle services to be utilised, making the system less dependent on a single entity.
 
 ##### Identity provider
 
@@ -72,7 +70,7 @@ The design decisions of PeerID were made with a focus on balancing the different
 - No centralized identity verification. The protocol does not rely on centralized ID verification services, which are expensive and can compromise privacy. Instead, individual verifications are done peer-to-peer and stored on a DLT. To strengthen the whole system, some selected users that agree to do so will participate in centralized ID verifications during the initial phase where the network is less mature and lacks local verifications
 - No online verification methods. There is no online verification process forseen, as online information can be manipulated or faked, especially with modern AI technology. While this makes the verification process more elaborate, it ensures that the identity verification is reliable and resistant to manipulation. Again, selected individuals might be verified online during the ramp up phase to kick start the network.
 - No use of biometric data. Biometric data will not be used due to cost, privacy concerns, and accessibility. Instead, the PeerID protocol requires users to engage in peer-to-peer verifications with people they choose and trust. While this may reduce the ability to automatically identify duplicate profiles and reliability of individual verifications, it allows more users to participate in the service and provide more privacy. Given there are multiple, confirming verification from different peers, a very high verification confidence can be reached that even exceeds biometric methods
-- No fees. The service is designed to be cost free for users and make it accessible and usefull to all. We believe that identity services such as PeerID should be a public good, cost free and funded entirely by donations. The lack of a financial incentive system likely will cause a slower initial adoption. Financial incentives however, can create conflicts and distract from the mission and purpose of the solution and thus, should be avoided.
-- No central authority. PeerID is designed to run in a decentralised manner using distributed ledger technology and to be maintained by a decentralised autonomous organisation. While this makes the system more complex, this is the only suitable way to remove dangerous single point of failures.
+- No fees. The service is designed to be cost free for end-users and make it accessible and usefull to all.
+- No centralized data. PeerID is designed to run in a decentralised manner using distributed ledger technology. While this makes the system more complex, this is the most suitable way to remove dangerous single points of failures, allow full transparency and build trust among it's users.
 
 While there are trade-offs, PeerID aims to provide the optimal balance in terms of usability, accessibility and privacy while maintaining high, tamper-proof security.
