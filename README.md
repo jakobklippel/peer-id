@@ -35,7 +35,7 @@ An individuals peer-id can be used for authentication, signatures and captchas a
 
 Users can anonymously proof their uniqueness and humanity to gain access to services, add digital signatures to online content and thus, build trust and develop stronger relationships online.
 
-#### Components
+### Technical Overview
 
 The PeerID protocol has several key components. These components include a mobile client application (Client), distributed ledger technology (DLT) backend, a network oracle service (Oracle), a public identity provider, and digital signatures.
 
@@ -63,7 +63,7 @@ Identities can also be used to add signatures to online content such as image, v
 
 Short Signartures allow signing text and media in way that it is minimal invasive and less distracting from the actual content. This is especially important for areas where the content size is limited. Short signatures are basically a reference to the actual signature which is stored on a separate public service.
 
-#### Design decisions and trade-offs
+### Design decisions and trade-offs
 
 The design decisions of PeerID were made with a focus on balancing the different requirements for an effective identity validation system. Design decision include:
 
