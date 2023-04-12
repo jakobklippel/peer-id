@@ -21,7 +21,7 @@ Existing solutions compromise on significant features. Most are unfit to meet th
 
 With the increasing sophistication of AI technology, online verification methods in general are becoming less reliable, creating a need for more innovative and secure approaches. It is becoming significantly easier for malicious actors to create convincing fake identities and generate manipulative content online. Other less intrusive systems are significantly more likely subject to manipulation. A scalable solution should be inclusive and accessible to all users worldwide.
 
-PeerID - a peer-to-peer, real world verification protocol - is a reliable, tamper-proof, and scalable identity solution for the future that will persist in the age of AI while maintaining anonymity and privacy of it's users.
+PeerID is a peer-to-peer verification protocol that is a reliable, tamper-proof, and scalable identity solution for the future that will persist in the age of AI while maintaining anonymity and privacy of it's users.
 
 ### Objectives and Goals
 
