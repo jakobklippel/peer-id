@@ -1,7 +1,7 @@
 # PeerID
 by Jakob Klippel (jakob@config.one)
 
-*The most significant challenge that must be addressed in the age of AI is developing a reliable proof of humanity.*
+*The most significant challenge that must be addressed in the age of AI is developing a reliable online proof of humanity.*
 
 ## Peer Identity Verification Protocol
 
