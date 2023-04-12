@@ -25,9 +25,9 @@ PeerID is a peer-to-peer verification protocol that is a reliable, tamper-proof,
 
 PeerID enhances trust and transparency in online communities, enabling users to make more informed decisions and build stronger relationships. The goal of PeerID is to build a protocol that is accessible and useful to all.
 
-### II. Technical Overview
+### II. Solution
 
-PeerID protocol requires users to create and verify their digital identities in a secure and tamper-proof way through a peer-to-peer verification process. This involves a physical, in person meeting where two parties confirm the identity (picture) shown by the other through a P2P signing process. No additional personal data, official ID, or other sensitive information is required to be shared with the verifying peer. The digital verification proofs are stored on a distributed ledger, ensuring the authenticity and integrity of the data.
+The PeerID protocol requires users to create and verify their digital identities in a secure and tamper-proof way through a peer-to-peer verification process. This involves a physical, in person meeting where two parties confirm the identity (picture) shown by the other through a P2P signing process. No additional personal data, official ID, or other sensitive information is required to be shared with the verifying peer. The digital verification proofs are stored on a distributed ledger, ensuring the authenticity and integrity of the data.
 
 Based on the interactions data of the verifier network a trust score is calculated for each user. The users identity is further anonymised in the process which prevents tracking cross services and makes it impossible to trace back users public identity to their verifier node and thus, to the peers that they interacted with.
 
