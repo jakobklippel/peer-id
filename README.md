@@ -13,19 +13,19 @@ PeerID aims to reduces the impact of online misinformation, manipulation, and fr
 
 ### Background and Context
 
-The prevalence of misinformation, manipulation, and fraud online undermines trust and damages the integrity of online communities today. With the advancement of AI, bad actors gain access to tools that can scale their activities significantly.
+The prevalence of misinformation, manipulation, and fraud online undermines trust and damages the integrity of online communities today. With the advancement of AI, bad actors gain access to tools that can scale their activities substantially. The risk of this development to human interaction online is difficult to predict, but it is likely to increase significantly, probably to an catastrophic extend for some online services such as social media platforms.
 
 Identity verification solutions are becoming significantly more important in this context as they allow to distinguish human from computer-generated content, and thus, help to build trust in online interactions.
 
 ### Problem Statement and Motivation
 
-Existing solutions compromise on significant features. Most are unfit to meet the challenges in the context of AI advancements. Furthermore, they are often expensive to use and require users to provide personal information, compromising their privacy and leaving them vulnerable to data breaches.
+Existing solutions compromise on important features. Most are unfit to meet the challenges in the context of AI advancements. They are often expensive to use and require users to provide personal information, compromising their privacy and leaving them vulnerable to data breaches.
 
-With the increasing sophistication of AI technology, online verification methods in general are becoming less reliable, creating a need for more innovative and secure approaches. It is becoming significantly easier for malicious actors to create convincing fake identities and generate manipulative content online. Other less intrusive systems are significantly more likely subject to manipulation. A scalable solution should be inclusive and accessible to all users worldwide.
+With the increasing sophistication of AI technology, traditional online verification methods in general are becoming less reliable, creating a need for more innovative and secure approaches. It is becoming significantly easier for malicious actors to create convincing fake identities and generate manipulative content online. Other less intrusive systems are much more likely subject to manipulation. A scalable solution should be inclusive and accessible to all users worldwide.
 
 PeerID is a peer-to-peer verification protocol that is a reliable, tamper-proof, and scalable identity solution for the future that will persist in the age of AI while maintaining anonymity and privacy of it's users.
 
-PeerID enhances trust and transparency in online communities, enabling users to make more informed decisions and build stronger relationships. The goal of PeerID is to build a protocol that is accessible and useful to all.
+The goal of PeerID is to enhance trust and transparency in online communities, enabling users to make more informed decisions and build stronger relationships. PeerID aims to build a protocol that is accessible and useful to all.
 
 ### II. Solution
 
