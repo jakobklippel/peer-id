@@ -19,9 +19,7 @@ Identity verification solutions are becoming significantly more important in thi
 
 ### Problem Statement and Motivation
 
-Existing solutions compromise on important features. Most are unfit to meet the challenges in the context of AI advancements. They are often expensive to use and require users to provide personal information, compromising their privacy and leaving them vulnerable to data breaches.
-
-With the increasing sophistication of AI technology, traditional online verification methods in general are becoming less reliable, creating a need for more innovative and secure approaches. It is becoming significantly easier for malicious actors to create convincing fake identities and generate manipulative content online. Other less intrusive systems are much more likely subject to manipulation. A scalable solution should be inclusive and accessible to all users worldwide.
+With the increasing sophistication of AI technology, traditional online verification methods in general are becoming less reliable, creating a need for more innovative and secure approaches. It is becoming significantly easier for malicious actors to create convincing fake identities and generate manipulative content online. Existing solutions compromise on important features. Most are unfit to meet the challenges in the context of AI advancements. They are often expensive to use and require users to provide personal information, compromising their privacy and leaving them vulnerable to data breaches. Other less intrusive systems are much more likely subject to manipulation. A scalable solution should be inclusive and accessible to all users worldwide.
 
 PeerID is a peer-to-peer verification protocol that is a reliable, tamper-proof, and scalable identity solution for the future that will persist in the age of AI while maintaining anonymity and privacy of it's users.
 
